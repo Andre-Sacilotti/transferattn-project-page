@@ -1,6 +1,6 @@
 # TransferAttn
 
-This is the repository that contains HTML code for the TransferAttn.
+This is the repository that contains HTML code for the TransferAttn project page.
 
 If you find TransferAttn useful for your work please cite:
 ```
