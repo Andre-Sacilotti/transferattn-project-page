@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>TransferAttn</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,50 +52,58 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            
+            <h1 class="title is-1 publication-title">TransferAttn: Transferable-guided Attention Is All You Need for Video Domain Adaptation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=xBquKMgAAAAJ&hl" target="_blank">André Sacilotti</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://scholar.google.com/citations?user=QT362TYAAAAJ&hl" target="_blank">Samuel Felipe dos Santos</a><sup>2</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl" target="_blank">Nicu Sebe</a><sup>3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=VSc_vDMAAAAJ&hl" target="_blank">Jurandy Almeida</a><sup>4</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    
+                    <span class="eql-cntrb"><small><sup>1</sup>University of São Paulo</small>,</span>
+                    <span class="eql-cntrb"><small><sup>2</sup>Federal University of São Paulo</small>,</span>
+                    <span class="eql-cntrb"><small><sup>3</sup>University of Trento</small>,</span>
+                    <span class="eql-cntrb"><small><sup>4</sup>Federal University of São Carlos</small></span><br>
+                    <span class="author-block">WACV 2025</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2407.01375" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Arxiv Paper</span>
                       </a>
                     </span>
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>WACV Paper (Soon)</span>
                     </a>
                   </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/Andre-Sacilotti/transferattn-project-code" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -103,17 +111,6 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -127,13 +124,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/DTAB-1.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        TransferAttn is a framework for unsupervised domain adaptation (UDA) in videos that leverages Vision Transformers (ViT) by incorporating spatial and temporal transferability into the attention mechanism.
       </h2>
     </div>
   </div>
@@ -148,8 +141,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+            Unsupervised domain adaptation (UDA) in videos is a challenging task that remains not well explored compared to image-based UDA techniques. Although vision transformers (ViT) achieve state-of-the-art performance in many computer vision tasks, their use in video domain adaptation has still been little explored. Our key idea is to use the transformer layers as a feature encoder and incorporate spatial and temporal transferability relationships into the attention mechanism. A Transferable-guided Attention (TransferAttn) framework is then developed to exploit the capacity of the transformer to adapt cross-domain knowledge from different backbones. To improve the transferability of ViT, we introduce a novel and effective module named Domain Transferable-guided Attention Block~(DTAB). DTAB compels ViT to focus on the spatio-temporal transferability relationship among video frames by changing the self-attention mechanism to a transferability attention mechanism. Extensive experiments on UCF-HMDB, Kinetics-Gameplay, and Kinetics-NEC Drone datasets with different backbones, like ResNet101, I3D, and STAM, verify the effectiveness of TransferAttn compared with state-of-the-art approaches. Also, we demonstrate that DTAB yields performance gains when applied to other state-of-the-art transformer-based UDA methods from both video and image domains.          </p>
         </div>
       </div>
     </div>
@@ -158,119 +150,199 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<section class="section hero ">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        
+        <h2 class="title is-3">Overall Architecture</h2>
+
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            The TransferAttn architecture utilizes the ViT as a feature encoder for domain adaptation. The encoder consists of four transformer blocks, with the last one incorporating our novel attention mechanism (DTAB). Additionally, to study the encoder's capabilities, we use a pretrained, fixed backbone, making the feature space learning a responsability of the encoder.          </p>
+        </div>
+        <img src="static/images/arch-1.png" alt="MY ALT TEXT"/>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <div style="text-align:center">
+          <h2 class="title is-3">Experimental Results</h2>
+          <p></p>
+          <br>
+        </div>
+        
+        <h3 class="title is-5">UCF101 - HMDB51</h3>
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            We report substantial performance improvements across various 2D and 3D backbones. Additionally, our results show that our model, using single-modal data, even surpasses state-of-the-art methods that utilize multi-modal data (e.g., color and motion).          </p>
+        </div>
+        <div class="columns is-centered">
+          <img src="static/images/ucfhmdb.png" style="height: auto; width: 50%; object-fit: contain"/>
+        </div>
+        <p></p><br>
+
+        <h3 class="title is-5">Kinetics - NEC-Drone</h3>
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            Although Kinetics and NEC-Drone are datasets with a more pronounced domain shift (YouTube videos vs. top-view drone videos), we were able to report significant performance improvements compared to state-of-the-art methods.          </p>
+        </div>
+        <div class="columns is-centered">
+          <img src="static/images/knec.png" style="height: auto; width: 40%; object-fit: contain"/>
+        </div>
 
 
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <div style="text-align:center">
+          <h2 class="title is-3">Analysis</h2>
+          <p></p>
+          <br>
+        </div>
+        
+        <h3 class="title is-5">DTAB on other Transformer Video Domain Adaptation Method</h3>
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            To validate the capabilities of the novel attention mechanism (DTAB), we explored its application in other transformer methods. In the UDAVT, we replaced the last transformer block in the backbone with our DTAB transformer block and achieved an improvement in the method's performance.
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <img src="static/images/udavt_dtab.png" style="height: auto; width: 50%; object-fit: contain"/>
+        </div>
+        <p></p><br>
+
+        <h3 class="title is-5">DTAB on Transformer Image Domain Adaptation Methods</h3>
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            nitially, the DTAB mechanism was developed with a focus on video domain adaptation due to its spatio-temporal characteristics. To evaluate the generalization capability of our novel attention mechanism, we applied DTAB to SOTA image-based UDA methods and observed significant improvements.
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <img src="static/images/image_uda_dtab.png" style="height: auto; width: 70%; object-fit: contain"/>
+        </div>
+        <p></p><br>
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h3 class="title is-5">Computational Cost</h3>
+        <div class="content has-text-justified">
+          <p></p> 
+          <p>
+            In addition to the performance improvement, the TransferAttn architecture has a low computational cost and very few parameters, proving to be an efficient architecture.
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <img src="static/images/computational_costs.png" style="height: auto; width: 50%; object-fit: contain"/>
+        </div>
+        <p></p><br>
+
+ 
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Analysis</h2>
+    </div>
+  </div>
+        
+        <div class="hero-body is-centered is-max-desktop"></div>
+        <h2 class="title is-4"></h2>
+        
+          <div class="content has-text-justified">
+            <p>
+              aaaaa
+          </div>
+          <div class="columns is-centered">
+            <img src="static/images/knec.png" alt="MY ALT TEXT", style="height: auto; width: 30%; object-fit: contain"/>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+       
+
+
+        <div class="hero-body is-centered is-max-desktop"></div>
+        <h2 class="title is-4">DTAB on Transformer Image Domain Adaptation</h2>
+        
+          <div class="content has-text-justified">
+            <p>
+              aaaaa
+          </div>
+          <div class="columns is-centered">
+            <img src="static/images/knec.png" alt="MY ALT TEXT", style="height: auto; width: 30%; object-fit: contain"/>
+          </div>
+        </div>
+
+      
+        
+
+        <div class="hero-body is-centered is-max-desktop"></div>
+        <h2 class="title is-4">t-SNE and Loss Importance</h2>
+        
+          <div class="content has-text-justified">
+            <p>
+              aaaaa
+          </div>
+          <div class="columns is-centered">
+            <img src="static/images/knec.png" alt="MY ALT TEXT", style="height: auto; width: 30%; object-fit: contain"/>
+          </div>
+        </div>
+      
+
+
+        <div class="hero-body is-centered is-max-desktop"></div>
+        <h2 class="title is-4">Computational Cost</h2>
+        
+          <div class="content has-text-justified">
+            <p>
+              aaaaa
+          </div>
+          <div class="columns is-centered">
+            <img src="static/images/knec.png" alt="MY ALT TEXT", style="height: auto; width: 30%; object-fit: contain"/>
+          </div>
+        </div>
+        
+         -->
+
+     
+   
+  
 </section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+<!-- <section class="hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Poster (Soon)</h2>
       </div>
     </div>
-  </section>
+  </div>
+</section> -->
+
 <!--End paper poster -->
 
 
@@ -278,7 +350,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{sacilotti2024transferattn,
+        title={Transferable-guided Attention Is All You Need for Video Domain Adaptationn},
+        author={Sacilotti, Andre and dos Santos, Samuel Felipe and Sebe, Nicu and Almeida, Jurandy},
+        booktitle={}
+        year={2024}
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -292,7 +369,7 @@
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
