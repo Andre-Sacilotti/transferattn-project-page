@@ -4,12 +4,15 @@ This is the repository that contains HTML code for the TransferAttn project page
 
 If you find TransferAttn useful for your work please cite:
 ```
-@misc{sacilotti2024transferattn,
-    title={TransferAttn: Transferable-guided Attention Is All You Need for Video Domain Adaptation}, 
-    author={André Sacilotti and Samuel Felipe dos Santos and Nicu Sebe and Jurandy Almeida},
-    year={2024},
-    archivePrefix={arXiv},
-    url={https://arxiv.org/abs/2407.01375}, 
+@InProceedings{WACV_2025_Sacilotti,
+author = {A. {Sacilotti} and S. F. {Santos} and N. {Sebe} and J. {Almeida}},
+title = {Transferable-guided Attention Is All You Need for Video Domain Adaptation},
+pages = {1–11},
+booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+address = {Tucson, AZ, USA},
+month = {February 28 – March 4},
+year = {2025},
+publisher = {{IEEE}},
 }
 ```
 
